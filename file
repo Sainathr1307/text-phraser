@@ -1,0 +1,15 @@
+# 1. Initialize git
+git init
+
+# 2. Add all files
+git add .
+
+# 3. Commit
+git commit -m "Initial commit: Text Parser API"
+
+# 4. Connect to your GitHub repo (replace YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/text-parser-api.git
+
+# 5. Push
+git branch -M main
+git push -u origin main
