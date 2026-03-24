@@ -1,0 +1,10 @@
+# Inside text_parser/ run:
+touch .gitignore
+```
+Add this content to it:
+```
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
